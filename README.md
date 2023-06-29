@@ -79,7 +79,7 @@ Find usb by using `diskutil list`, then:
 ```
 # Assume usb disk is /dev/diskX
 diskutil unmountDisk /dev/diskX
-dd if=path/to/arch.iso of=/dev/diskX bs==1m
+dd if=path/to/arch.iso of=/dev/diskX bs=1m
 ```
 
 ## Boot it up
